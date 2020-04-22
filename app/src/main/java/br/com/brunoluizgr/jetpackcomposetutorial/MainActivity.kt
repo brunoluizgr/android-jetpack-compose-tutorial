@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
      * Adicionar novas
      */
     fun getScreenList() = listOf(
-        Screen("Card Activity 1", CardActivity.newInstance(this)),
+        Screen("Card List Universe", CardActivity.newInstance(this)),
         Screen("Card Activity 2", CardActivity.newInstance(this)),
         Screen("Card Activity 3", CardActivity.newInstance(this)),
         Screen("Card Activity 4", CardActivity.newInstance(this))
